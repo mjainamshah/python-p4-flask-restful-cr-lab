@@ -14,3 +14,6 @@ class Plant(db.Model, SerializerMixin):
 
     def __repr__(self):
         return f'<Plant {self.name} | Price: {self.price}>'
+
+
+# ABOVE IS MY models.py
